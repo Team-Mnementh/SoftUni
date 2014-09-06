@@ -1,0 +1,80 @@
+div#content{
+	border-top: dotted 4px #FFFF00;
+	border-right: solid 8px #008000;
+	border-bottom: double 8px #0000FF;
+	border-left: dashed 4px #FF0000;
+	width:600px;
+	text-align: center;
+	box-shadow: 20px 20px 8px #3F3F3F;
+}
+div#content header h1{
+	text-shadow: 7px 7px 12px #404040;
+}
+div#blue{
+	border:3px solid #0000ff;
+	width: 550px;
+	margin:0 auto;
+	margin-bottom: 30px;
+}
+div#green{
+	border:3px solid #008600;
+}
+div#yellow{
+	border:3px solid #ffff00;
+}
+div#red{
+	border:3px solid #ff0000;
+	text-align: center;
+}
+div#blue, div#green, div#yellow, div#red{
+	border-radius:50px;
+}
+label{
+	display: block;
+	padding:10px;
+	text-shadow: 15px 10px 13px #9d9999;
+}
+input{
+	margin-bottom:10px;
+	background-color: #D8921A;
+	border: 4px outset #eada20;
+	padding-left:5px;
+	height: 26px;
+}
+#first{
+	background-color:#adaeae;
+	width:20px;
+	height: 20px;
+	border-radius: 50%;
+	border:3px dashed #fff;
+	position: absolute;
+	left:452px;
+	top:120px;
+	opacity: 0.8;
+}
+#second{
+	background-color:#adaeae;
+	width:30px;
+	height: 30px;
+	border-radius: 50%;
+	border:3px dashed #fff;
+	position: absolute;
+	left:540px;
+	top:90px;
+	opacity: 0.8;
+}
+#third{
+	background-color:#adaeae;
+	width:80px;
+	height: 35px;
+	padding:10px;
+	border-radius: 50px;
+	border:3px dashed #fff;
+	position: absolute;
+	left:580px;
+	top:38px;
+	opacity: 0.8;
+
+	color:#fff;
+	font-weight: bold;
+}

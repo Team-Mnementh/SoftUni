@@ -1,0 +1,67 @@
+body,div,span,form,header,h1,h2,h3,select,option,a,ul,li,input{
+	margin:0;
+	padding:0;
+}
+form{
+	background-color:#ffc0cb;
+	font-family: Arial, sans-serif;
+	width: 516px;
+	margin:30px auto;
+	padding:10px;
+	border-radius: 10px;
+}
+header h1{
+	width:400px;
+	margin:0 auto;
+}
+h1,h3{
+	font-style: italic;
+}
+.left{
+	width:260px;
+	float:left;
+}
+select, input[type="date"], input[type="submit"]{
+	width: 250px;
+	height: 30px;
+}
+
+div#departure, div#return{
+	display: inline-block;
+}
+
+div#destination{
+	display: inline-block;
+}
+div.to{
+	width:252px;
+	float:left;
+}
+div.to input{
+	margin-left:5px;
+	margin-top:5px;
+}
+.time-interval{
+	float:left;
+}
+input[type="time"]{
+	width:120px;
+	height: 30px;
+}
+#passenger{
+	display: inline-block;
+	width: 512px;
+}
+#passenger div{
+	display: inline-block;
+}
+#passenger .choose-class{
+	margin-bottom: 10px;
+}
+#passenger input[type="number"] {
+	width:78px;
+	height: 27px;
+}
+#passenger .submit{
+	float:right;
+}

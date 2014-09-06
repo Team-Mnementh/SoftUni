@@ -1,0 +1,16 @@
+div, header, h1, span, input, form{
+	margin:0;
+	padding:0;
+}
+form{
+	border:1px solid #ccc;
+	display: inline-block;
+	padding-right: 5px;
+	padding-bottom: 10px;
+}
+input{
+	height: 30px;
+}
+img{
+	vertical-align: bottom;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flight Order</title>
+	<link rel="stylesheet" type="text/css" href="css/FlightOrder.css">
+</head>
+<body>
+	<form>
+		<header>
+			<h1>FLIGHT ORDER</h1>
+		</header>
+		<div id="destination">
+			<div class="from left">
+				<header>
+					<h3>From</h3>
+				</header>
+				<select>
+					<option>enter a city</option>
+					<option>Sofia</option>
+					<option>Beograd</option>
+					<option>Skopje</option>
+					<option>Milano</option>
+					<option>Bergamo</option>
+				</select>
+			</div>
+
+			<div class="to">
+				<header>
+					<h3>To</h3>
+				</header>
+				<select>
+					<option>enter a city</option>
+					<option>Sofia</option>
+					<option>Beograd</option>
+					<option>Skopje</option>
+					<option>Milano</option>
+					<option>Bergamo</option>
+				</select>
+				
+				<label for="direct">Prefer directs
+					<input type="checkbox" id="direct">
+				</label>
+			</div>
+		</div>
+
+		<div id="departure">
+			<div class="departure-date left">
+				<header>
+					<h3>Departure Date</h3>
+				</header>
+				<input type="date">
+			</div>	
+
+			<div class="time-interval">
+				<header>
+					<h3>Time Interval</h3>
+				</header>
+				<input type="time">
+				<input type="time">
+			</div>
+		</div>
+
+		<div id="return">
+			<div class="return-date left">
+				<header>
+					<h3>Return Date</h3>
+				</header>
+				<input type="date">
+			</div>
+
+			<div class="time-interval">
+				<header>
+					<h3>Time Interval</h3>
+				</header>
+				<input type="time">
+				<input type="time">
+			</div>
+		</div>
+		<div id="passenger">
+			<div class="passenger-number left">
+				<div class="12+">
+					<header>
+						<h3>12+</h3>
+					</header>
+					<input type="number" min="0" max="10">
+				</div>
+
+				<div class="2-12">
+					<header>
+						<h3>2-12</h3>
+					</header>
+					<input type="number" min="0" max="10">
+				</div>
+
+				<div class="0-2">
+					<header>
+						<h3>0-2</h3>
+					</header>
+					<input type="number" min="0" max="10">
+				</div>
+			</div>
+
+			<div class="choose-class">
+			<header>
+				<h3>Choose class</h3>
+			</header>
+				<select>
+					<option>Economy</option>
+					<option>Business</option>
+				</select>
+			</div>
+
+			<div class="submit">
+				<input type="submit" value="Search">
+			</div>
+		</div>
+	</form>
+</body>
+</html>

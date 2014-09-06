@@ -1,0 +1,67 @@
+body, table, thead,tbody,th,tr,td,input,div,span{
+	margin:0;
+	padding: 0;
+}
+div#wrapper{
+	background-color:#009744;
+	padding: 10px 0;
+}
+table{
+	border:1px solid #000;`
+	border-radius: 10px;
+	margin:0 auto;
+	border-radius: 10px;
+}
+th,td{
+	border:1px solid #000;
+	text-align: center;
+	vertical-align: middle;
+	padding:10px;
+
+}
+td.left{
+	text-align: left;
+
+}
+td.left img{
+	margin-right: 5px;	
+}
+td.right{
+	text-align: right;
+}
+td.right img{
+	margin-left:5px;
+}
+td.disable > input{
+	color:red;
+}
+td.bottom-left{
+	border-bottom-left-radius: 10px;
+}
+td.bottom-right{
+	border-bottom-right-radius: 10px;
+}
+td input{
+	color:green;
+}
+th{
+	background-color:#f8ca14;
+}
+tr{
+	background-color:#fff;
+}
+tr:nth-child(2n+2){
+	background-color: #cbcbcb;
+}
+th:first-child{
+	border-top-left-radius: 10px;	
+}
+th:last-child{
+	border-top-right-radius: 10px;
+}
+input{
+	width:31px;
+	height: 30px;
+	font-size: 20px;
+	padding: 5px;
+}

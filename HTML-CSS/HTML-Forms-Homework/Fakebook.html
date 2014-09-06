@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fakebook</title>
+	<link rel="stylesheet" type="text/css" href="css/Fakebook.css">
+</head>
+<body>	
+	<div id="wrapper">
+		<form>
+			<header>
+				<h1>fakebook<span>&#174;</span></h1>
+				<h2>Registration</h2>
+				<h3>It is safe and it will always be!</h3>
+			</header>
+
+			<fieldset id="none-important">
+				<legend>None-Important Information</legend>
+
+				<input type="text" class="input" placeholder="First Name" tabindex="1">
+				<input type="text" class="input" placeholder="Last Name" tabindex="2">
+				<input type="email" class="input" placeholder="Your Email" tabindex="3">
+				<input type="phone" class="input" placeholder="Phone Number" tabindex="4" pattern="((\+[0-9]{2})|0)[.\- ]?9[0-9]{2}[.\- ]?[0-9]{3}[.\- ]?[0-9]{4}">
+				<input type="password" class="input" placeholder="Your Password" tabindex="5">
+				<input type="text" class="input" placeholder="Website" tabindex="6">
+
+				<label for="birthday">Birthday</label>
+				<input type="date" id="birthday" tabindex="7">
+
+				<div id="gender">
+					<ul>
+						<li>
+							<input type="radio"  name="gender" id="female">
+							<label for="female">Female</label>
+						</li>
+						<li>
+							<input type="radio" name="gender" id="male">
+							<label for="male">Male</label>
+						</li>
+						<li>
+							<input type="radio" name="gender" id="other">
+							<label for="other">Other</label>
+						</li>
+					</ul>
+				</div>
+			</fieldset>
+
+			<fieldset id="important">
+				<legend>Inportant Information *required</legend>
+
+				<div id="address">
+					<select>
+						<option>Bulgaria</option>
+						<option>Italy</option>
+						<option>Germany</option>
+						<option>UK</option>
+						<option>Spain</option>
+					</select>
+
+					<input type="text" class="input" placeholder="Village">
+					<input type="text" class="input" placeholder="District">
+					<input type="text" class="input" placeholder="Street">
+					<input type="text" class="input-small input" placeholder="Nr">
+					<input type="text" class="input-small input" placeholder="Floor">
+					<input type="text" class="input-small input" placeholder="Ap Nr">
+				</div>
+				<div id="other">
+					<label for="color">Door color</label>
+					<input type="color" class="input" id="color">
+					<input type="text" class="input" placeholder="Water Meter Nr">
+					<select >
+						<option>Aunt Panties Size</option>
+						<option>72</option>
+						<option>74</option>
+						<option>76</option>
+						<option>78</option>
+						<option>92</option>
+						<option>110</option>
+					</select>
+				</div>
+
+				<div id="more-information">
+					<label for="info">More Personal Information</label>
+					<textarea id="info" placeholder="Give us more information!!!"></textarea>
+				</div>
+			</fieldset>
+
+			<div id="buttons">
+				<input type="reset">
+				<input type="submit">
+			</div>
+		</form>
+	</div>
+</body>
+</html>

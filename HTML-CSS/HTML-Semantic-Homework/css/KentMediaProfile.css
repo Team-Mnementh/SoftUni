@@ -1,0 +1,26 @@
+body,div,span,header,h1,h2,h3,section,article,figure,figcaption,img,meter,audio,video{
+	margin:0;
+	padding: 0;
+}
+section{
+	display: inline-block;
+	background-color: #ffc0cb;
+	padding:20px;
+}
+article{
+	float:left;
+	margin-left: 10px;
+}
+audio{
+	display: block;
+}
+header h1{
+	width:200px;
+	margin:0 auto;
+}
+h2{
+	font-size:1em;
+}
+audio{
+	margin-bottom: 5px;
+}

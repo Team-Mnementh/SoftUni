@@ -1,0 +1,36 @@
+@font-face {
+	font-family: AnimatedFont;
+	src: url("../img/Animated.ttf");
+}
+body{	
+	margin:0;
+	padding:0;
+	background: -webkit-radial-gradient(80px -50px, circle,#f1da36 3%,#e07700 19%,#e07700 19%,#006EDB 60% );
+	background-repeat: no-repeat;
+	-webkit-background-size: 900px 600px;
+}
+div#content{
+	background-image: url("../img/HawaiiBackground.png");
+	background-repeat: no-repeat;
+	height: 600px;
+	width: 900px;
+}
+div#people{
+	height: 100%;
+	background-image: url("../img/TediHula.png"),
+	url("../img/PetiaHula.png"),
+	url("../img/VladoGHula.png"),
+	url("../img/AlexHula.png"),
+	url("../img/NakovHula.png"),
+	url("../img/VladoKHula.png");
+	
+	background-repeat: no-repeat;
+	background-position:263px 363px, 187px 191px, 47px 222px,495px 202px, 413px 157px, 673px 233px;
+}
+div#people > header{
+	font-family: AnimatedFont;
+	color:#fdbc21;
+	font-size:50px;
+	text-align: right;
+	margin-right: 20px;
+}

@@ -1,0 +1,91 @@
+body,div,span,ul,li,a,section,input,button,header,h1,h2,h3{
+	margin:0;
+	padding:0;
+}
+div#wrapper{
+	display: inline-block;
+	width:100%;
+	background-color: #284a6b;
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+header h2{
+	font-size: 14px;
+	color:#f2a100;
+}
+ul{
+	list-style-type: none;
+}
+ul li a{
+	text-decoration: none;
+	color:#fff;
+	font-size: 12px;
+}
+section{
+	padding-top:55px;
+	float:left;
+}
+section ul li{
+	padding:3px;
+}
+section header{
+	padding-bottom: 10px;
+}
+section#buttons {
+	width: 160px;
+	margin-left:65px;
+	float:left;
+}
+section#buttons button{
+	width: 100%;
+	height: 40px;
+	background-color:#284a6b;
+	color:#fff;
+	border:2px solid #ffa100;
+	margin-bottom: 10px;
+}
+section#buttons button:hover{
+	background-color:#ffa100;
+}
+section#about{
+	margin-left:30px;
+}
+
+section#friends{
+	margin-left:30px;
+}
+section#suls{
+	width:315px;
+	margin-left:30px;
+}
+section#suls p {
+	font-size: 14px;
+	color:#fff;
+}
+section#suls li{
+	float:left;
+
+}
+
+section#suls li a{
+	display: inline-block;
+	width:28px;
+	height: 28px;
+}
+section#suls ul li:nth-of-type(1){
+	background-image: url("../img/twitter.png");
+	background-repeat: no-repeat;
+}
+section#suls ul li:nth-of-type(2){
+	background-image: url("../img/facebook.png");
+	background-repeat: no-repeat;
+}
+section#suls ul li:nth-of-type(3){
+	background-image: url("../img/googleplus.png");
+	background-repeat: no-repeat;
+}
+iframe{
+	margin-left:30px;
+	margin-bottom:30px;
+	margin-top:35px;
+	background-color:#eaedf0;
+}

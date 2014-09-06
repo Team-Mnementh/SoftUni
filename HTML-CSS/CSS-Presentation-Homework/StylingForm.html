@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Styling HTML Form</title>
+	<link rel="stylesheet" type="text/css" href="css/StylingForm.css">
+</head>
+<body>
+	<div id="wrapper">
+		<form>
+			<fieldset>
+				<legend>Step 1: Your details</legend>
+				<div>
+					<label for="name" class="label-changed">Name</label>
+					<input type="text" id="name" class="changed" placeholder="First and last name">
+				</div>
+				<div>
+					<label for="email" class="label-changed">Email</label>
+					<input type="text" id="email" class="changed" placeholder="Example@domain.com">
+				</div>
+				<div>
+					<label for="phone" class="label-changed">Phone</label>
+					<input type="text" id="phone" class="changed" placeholder="eg. +447500000000">
+				</div>
+			</fieldset>	
+
+			<fieldset>
+				<legend>Step 1: Delivery address</legend>
+				<div class="address">
+					<label for="address" class="label-changed">Address</label>
+					<textarea id="address"></textarea>
+				</div>
+				<div>
+					<label for="post-code" class="label-changed">Post code</label>
+					<input type="text" id="post-code" class="changed">
+				</div>
+				<div>
+					<label for="country" class="label-changed">Country</label>
+					<input type="text" id="country" class="changed">
+				</div>
+			</fieldset>	
+
+			<fieldset>
+				<legend>Step 1: Card details</legend>
+				<div>
+					<span>Card type</span>
+					<input type="radio" id="visa" name="card">
+					<label for="visa" class="visa">VISA</label>
+
+					<input type="radio" id="amex" name="card">
+					<label for="amex" class="amex">AmEx</label>
+
+					<input type="radio" id="mastercard" name="card">
+					<label for="mastercard" class="mastercard">Mastercard</label>
+				</div>
+				<div>
+					<label for="card-number" class="label-changed">Card number</label>
+					<input type="text" id="card-number" class="changed">
+				</div>
+				<div>
+					<label for="security-code" class="label-changed">Security code</label>
+					<input type="text" id="security-code" class="changed">
+				</div>
+				<div>
+					<label for="card-name" class="label-changed">Name on card</label>
+					<input type="text" id="card-name" placeholder="exact name as on the card" class="changed">
+				</div>
+			</fieldset>
+
+			<input type="submit" value="BUY IT!">
+		</form>
+	</div>
+</body>
+</html>

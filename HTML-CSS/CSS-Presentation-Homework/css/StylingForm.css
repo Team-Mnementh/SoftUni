@@ -1,0 +1,89 @@
+body, div, span, form, fieldset, legend, input, a, p, ul, li, header, h1, h2, h3{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 13px;
+}
+div#wrapper form{
+	margin:20px auto;
+	padding-bottom: 5px;
+	background-image: url("../img/formBackground.jpg");
+	width:400px;
+	border-radius: 5px;
+}
+div#wrapper fieldset{
+	border:none;
+}
+div#wrapper legend{
+	padding-top:15px;
+	margin-bottom: 10px;
+	margin-left:25px;
+	color:#ebebe5;
+}
+div#wrapper form div {
+	width:85%;
+	margin:0 auto;
+	border:1px solid #d0dfea;
+	border-radius: 5px;
+	padding:5px;
+	margin-bottom: 2px;
+	background-color: rgba(128,162,195, 0.7);
+}
+div#wrapper form div  label.label-changed{
+	display: inline-block;
+	width:96px;
+}
+div#wrapper form div  input.changed {
+	width:190px;
+	height: 24px;
+	border:none;
+	border-radius: 2px;
+	padding-left:5px;
+}
+div#wrapper form div.address label{
+	vertical-align: top;
+}
+div#wrapper form div.address textarea{
+	width:190px;
+	height: 80px;
+}
+div#wrapper form fieldset div label.visa{
+	background-image: url("../img/visa-icon.gif");
+	background-repeat: no-repeat;
+	padding-left:30px;
+}
+div#wrapper form fieldset > legend{
+	font-weight: bold;
+}
+div#wrapper form fieldset div label.amex{
+	background-image: url("../img/amex-icon.gif");
+	background-repeat: no-repeat;
+	padding-left:30px;
+}
+div#wrapper form fieldset div label.mastercard{
+	background-image: url("../img/mastercard-icon.png");
+	background-repeat: no-repeat;
+	padding-left:30px;
+}
+div#wrapper form fieldset div input[type=radio]{
+	margin-left:10px;
+}
+div#wrapper form fieldset div span{
+	display: block;
+	padding: 10px 0;
+}
+div#wrapper form input[type="submit"]{
+	display: block;
+	margin:10px auto;
+	width:92px;
+	height:27px;
+	background-color:#051934;
+	border-radius: 15px;
+	border:none;
+	color:#fff;
+}
+div#wrapper form input[type="submit"]:hover{
+	background-color: #FF9C00;
+}

@@ -1,0 +1,95 @@
+body,div,span,a,ul,li,header,h1,h2,h3,input,p,img,aside{
+	margin:0;
+	padding:0;
+	color:#314860;;
+}
+body{
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
+	padding: 10px;
+}
+#wrapper{
+	width: 830px;
+	margin:20px auto;
+}
+header{
+	margin-bottom: 10px;
+}
+h1{
+	font-size:1.5em;
+}
+h3{
+	font-size: 1.1em;
+}
+ul{
+	display: inline-block;
+}
+li{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+div#main-content{
+	width: 620px;
+	float:left;
+}
+a{
+	display: inline-block;
+	width:195px;
+	text-decoration: none;
+	border:1px solid #dbeffa;
+	border-radius: 10px;
+	padding-left:5px;
+	padding-top: 5px;
+}
+a > img{
+	display: block;
+	margin:0 auto;
+}
+.price{
+	float:right;
+	background-color:#314860;
+	display: table;
+	border-top-left-radius: 10px;
+	padding:10px;
+}
+.price > span {
+	color:#fff;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+aside{
+	display: inline-block;
+	float:right;
+	border:1px solid #dbeffa;
+	width: 200px;
+	background-color: #f8fcff;
+}
+aside .slider{
+	margin-bottom: 10px;
+}
+div.slider input{
+	width: 100%;
+}
+div.slider h3{
+	text-align: center;
+}
+div.value div.min, div.max {
+	display: inline-block;
+}
+div.value div.min{
+	float:left;
+}
+div.value div.max{
+	float:right;
+}
+.new{
+	background-image: url("../img/new.png");
+	background-repeat: no-repeat; 
+	display: inline-block;
+	width:50px;
+	height: 50px;
+	position: absolute;
+	margin-left:8px;
+	margin-top:8px;
+
+}

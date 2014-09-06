@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PowerPoint Slide</title>
+	<style type="text/css">
+		body, header, h1, div, ul, li, a, p, span{
+			margin:0;
+			padding: 0;
+		}
+		#background{
+			font-family: Arial;
+			background-image: url("img/PowerPoint-Background.png");
+			width:910px;
+			height: 450px;
+			margin: 0 auto;
+			margin-top:60px;
+		}
+		header h1{
+			color:#f4d066;
+			padding-top: 20px;
+			padding-left: 17px;
+			font-size: 38px;
+		}
+		ul{
+			color:#fff;
+			margin-left: 55px;
+			margin-top: 10px;	
+		}
+		ul li {
+			font-size: 34px;
+			list-style-type: square;
+
+		}
+		span{
+			color:#f4d066;
+			font-weight: bold;
+		}
+		.heading-div{
+			background-color: #252522;
+			width: 785px;
+			height: 65px;
+			border:1px solid #7a766b;
+			border-top:1px solid #6a665c;
+			margin-top:5px;
+			margin-bottom: 5px;
+		}
+		.heading-div p{
+			font-family: Consolas;
+			font-size:20px;
+			color:#fbefcc;
+			margin-left: 5px;
+		}
+		.pharagraph-div{
+			background-color: #252522;
+			width: 785px;
+			height: 45px;
+			border:1px solid #7a766b;
+			border-top:1px solid #6a665c;
+			margin-top:5px;
+			margin-bottom: 5px;
+		}
+		.pharagraph-div p {
+			font-family: Consolas;
+			font-size:20px;
+			color:#fbefcc;
+			margin-left: 5px;
+		}
+		.span-div{
+			background-color: #252522;
+			width: 785px;
+			height: 65px;
+			border:1px solid #7a766b;
+			border-top:1px solid #6a665c;
+			margin-top:5px;
+			margin-bottom: 5px;
+		}
+		.span-div p {
+			font-family: Consolas;
+			font-size:20px;
+			color:#fbefcc;
+			margin-left: 5px;
+		}
+		.span-div .inner {
+			margin-left:20px;
+		}
+	</style>
+</head>
+<body>
+	<div id="background">
+		<header>
+			<h1>Heading and Paragraphs</h1>
+		</header>
+		<ul>
+			<li>Heading tags: <span>&lt;h1&gt;</span> - <span>&lt;h1&gt;</span>
+				<div class="heading-div">
+					<p>&lt;h1&gt;Heading 1&lt;/h1&gt;</p>
+					<p>&lt;h2&gt;Heading 2&lt;/h2&gt;</p>
+					<p>&lt;h3&gt;Heading 3&lt;/h3&gt;</p>
+				</div>
+			</li>
+			<li>Paragraph Tags: <span>&lt;p&gt;</span>
+				<div class="pharagraph-div">
+					<p>&lt;p&gt;This is my first paragraph&lt;/p&gt;</p>
+					<p>&lt;p&gt;This is my first paragraph&lt;/p&gt;</p>
+				</div>
+			</li>
+			<li>Section: <span>&lt;div&gt;</span> and <span>&lt;span&gt;</span>
+				<div class="span-div">
+					<p>&lt;div style="background: skyblue;"&gt;</p>
+					<p class="inner">This is a div</p>
+					<p>&lt;/div&gt;</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

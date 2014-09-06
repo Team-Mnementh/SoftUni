@@ -1,0 +1,32 @@
+section{
+	background-color:#000;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 30px;
+}
+ul{
+	display: inline-block;
+	list-style-type: none;
+}
+ul li{
+	padding: 4px;
+	font-size:30px;
+}
+ul li a{
+	text-decoration: none;
+}
+iframe{
+	border:1px solid #f3c408;
+}
+header h1{
+	color:#f3c408;
+	font-size: 40px;
+	margin:0;
+	text-align: center;
+}
+ul a{
+	color:#fff;
+}
+ul a:visited{
+	color:#fff;
+}

@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/var/www/SoftUni"
+		}
+	],
+	"settings": {
+        "xdebug": {
+             "url": "http://localhost/SoftUni/PHP%20Forms/05.CVGenerator.php",
+        }
+    }
+}

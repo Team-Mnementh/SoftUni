@@ -1,0 +1,96 @@
+body, div, span, header, h1, h2, a, p, input, form{
+	margin:0;
+	padding:0;
+}
+#main-content{
+	font-family: 'PT Sans', Tahoma, sans-serif;
+	background-color:#eee;
+	padding:20px;
+	display: inline-block;
+}
+header{
+	text-transform: uppercase;
+}
+h2{
+	font-size: 1em;
+}
+#main-content > header{
+	margin-bottom: 20px;
+	color:#234465;
+}
+#main-content p {
+	margin-bottom: 20px;
+	color:#666;
+}
+#register-form{
+	width:345px;
+	display: inline-block;
+	float:left;
+}
+form > header{
+	margin-bottom: 10px;
+}
+#register-form header h2{
+	color:#666;
+}
+#register-form header a {
+	color:#234465;
+	text-decoration: none;
+}
+ input[type="text"],input[type="email"], input[type="submit"], input[type="password"] {
+	width:330px;
+	height:40px;
+	margin-bottom:10px;
+	padding-left: 10px;
+}
+#register-form input[type="submit"]{
+	width:170px;
+	border:2px solid #234465;
+	color:#234465;
+	display: inline-block;
+	float:right;
+	font-size:16px;
+}
+#login-form{
+	border:1px solid blue;
+	float:right;
+	width: 345px;
+	padding:10px;
+	margin-left:10px;
+	background-color:#234465;
+	color:#fff;
+}
+#login-form header h2{
+	color:#fff;
+}
+#login-form header a {
+	color:#fff;
+	text-decoration: none;
+}
+#login-form input[type="submit"]{
+	width:140px;
+	border:2px solid #ff9c00;
+	background-color:#234465;
+	color:#fff;
+	display: inline-block;
+	float:right;
+	font-size:16px;
+}
+#login-form .forgot-password {
+	color:#fff;
+	display: block;
+	font-size:13px;
+	font-weight: bold;
+	margin-left:15px;
+	margin-bottom: 60px;
+}
+#login-form input[type="checkbox"]{
+
+}
+#login-form .left-col{
+	width: 150px;
+	float:left;
+}
+#login-form .right-col{
+	float:right;
+}
